@@ -1,5 +1,5 @@
 ## note
-
+Personal notes for daily learning
 ### git commit
 ```
 <type>(<scope>): <subject>
