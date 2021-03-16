@@ -70,9 +70,7 @@ function getType(obj) {
     return type;
   }
   // 对于typeof返回结果是object的，再进行如下的判断，正则返回结果
-  return Object.prototype.toString
-    .call(obj)
-    .replace(/^\[object (\S+)\]$/, "$1"); // 注意正则中间有个空格
+  return Object.prototype.toString.call(obj).replace(/^\[object (\S+)\]$/, "$1"); // 注意正则中间有个空格
 }
 /* 代码验证，需要注意大小写，哪些是typeof判断，哪些是toString判断？思考下 */
 getType([]); // "Array" typeof []是object，因此toString返回

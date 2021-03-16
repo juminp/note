@@ -1,0 +1,22 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "note",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juminp/note.git"
+  },
+  "author": "juminp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juminp/note/issues"
+  },
+  "homepage": "https://github.com/juminp/note#readme",
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}
