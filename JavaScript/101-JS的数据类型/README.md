@@ -23,6 +23,11 @@
   - Math
   - Function
 
+> 类型判断
+
+- typeof 和 instanceof，以及 Object.prototype.toString 的判断数据类型
+
+
 ### 存储
 
 > 因为各种 JavaScript 的数据类型最后都会在初始化之后放在不同的内存中，因此上面的数据类型大致可以分成两类来进行存储：

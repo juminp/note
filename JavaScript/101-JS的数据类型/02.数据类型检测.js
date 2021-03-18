@@ -7,7 +7,7 @@ typeof "1"; // 'string'
 typeof undefined; // 'undefined'
 typeof true; // 'boolean'
 typeof Symbol(); // 'symbol'
-typeof null; // 'object' // 有问题的
+typeof null; // 'object' // js存在悠久历史bug  let a = null; a === null => true
 typeof []; // 'object'
 typeof {}; // 'object'
 typeof console; // 'object'
