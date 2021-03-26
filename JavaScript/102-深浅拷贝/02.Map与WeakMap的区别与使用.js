@@ -47,7 +47,7 @@ Map.prototype.has();
 Map.prototype.keys();
 Map.prototype.set();
 Map.prototype.values();
-Map.prototype[@@iterator]();
+// Map.prototype[@@iterator]();
 
 // WeakMap的API有：
 WeakMap.prototype.delete();
